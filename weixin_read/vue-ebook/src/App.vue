@@ -9,8 +9,8 @@
 export default {
   mounted() {
     // this.$store.dispatch("setTest", 10);
-    this.$store.dispatch("setTest", 9).then(() => {
-      console.log(this.$store.state.test)
+    this.$store.dispatch("setTest", 10).then(() => {
+      console.log(this.$store.state.book.test);
     });
   }
 };
